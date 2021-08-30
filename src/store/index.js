@@ -5,11 +5,11 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    testbtn:false,
   },
   mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
+    updatetestbtn:(state,value)=>{
+      state.testbtn=value;
+    }
+    },
 })
