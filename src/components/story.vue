@@ -2,7 +2,7 @@
   <div id="story" :ref="name">
     <div class="card1 row">
       <div id="imgdivS" class="col-lg-4 col-md-8">
-        <img :src="img" alt="" />
+        <img :src="require('@/assets/'+img)" alt="" />
       </div>
       <div class="col-lg-6 col-md-8">
         <h6 class="mb-4 p-2 mt-4">{{ title }}</h6>

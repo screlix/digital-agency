@@ -4,7 +4,7 @@
       <div class="row d-flex justify-content-center" ref="teamTrRef">
         <transition name="teamTr">
           <div v-if="teamTrShow" class="col-lg-5 col-10 mb-4 mt-3">
-          <img :src="url1" alt=""/>
+          <img :src="require('@/assets/'+url1)" alt=""/>
           </div>
         </transition>
         <transition name="teamTr2">
@@ -41,7 +41,7 @@ export default {
     return {
       teamTrTest:true,
       teamTrShow:false,
-      url1: "http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/03/team-group.png",
+      url1: "team-group.png",
     };
   },
   methods: {

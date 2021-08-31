@@ -43,14 +43,14 @@ export default {
           title: "Lifestyle",
           content:
             "You can now listen to the entire library of Design Better books for free",
-          img: "http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/04/blog-image-three-410x452.jpg",
+          img: "blog-image-three-410x452.jpeg",
           name:'stor0'
         },
         {
           title: "Design",
           content:
             "How developers are taking the guesswork out of animation coding",
-          img: "http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/04/blog-image-four-410x452.jpg",
+          img: "blog-image-four-410x452.jpeg",
           name:'stor1'
         },
       ],

@@ -10,10 +10,10 @@
         <div class="col-lg-7 col-12">
             <table>
                 <tr>
-                    <td v-for="el,index in clientss" :key="index"><img :src="el" alt=""></td>
+                    <td v-for="el,index in clientss" :key="index"><img :src="require('@/assets/brands/'+el)" alt=""></td>
                 </tr>
                 <tr>
-                    <td v-for="el,index in clientss2" :key="index"><img :src="el" alt=""></td>
+                    <td v-for="el,index in clientss2" :key="index"><img :src="require('@/assets/brands/'+el)" alt=""></td>
                 </tr>
             </table>
         </div>
@@ -27,14 +27,14 @@ export default {
     data(){
         return{
             clientss:[
-                "http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/03/brand-01.png", 
-                "http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/03/brand-02.png", 
-                "http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/03/brand-03.png" 
+                "brand-01.png", 
+                "brand-02.png", 
+                "brand-03.png" 
             ], 
             clientss2:[
-                "http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/03/brand-04.png", 
-                "http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/03/brand-05.png", 
-                "http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/03/brand-06.png"
+                "brand-04.png", 
+                "brand-05.png", 
+                "brand-06.png"
             ]
         }
     }

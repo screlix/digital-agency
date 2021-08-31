@@ -37,32 +37,32 @@ export default {
             serviceDataArray:[
                 {
                     title:'Design',
-                pic:'http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/06/design-icon.png',
+                pic:'design-icon.png',
                 clr:'#744AF6'
                 },
                 {
                     title:'Development',
-                pic:'http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/06/development-icon.png',
+                pic:'development-icon.png',
                 clr:'#5BCC9F'
                 },
                 {
                     title:'Online marketing',
-                pic:'http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/06/online-marketing-icon.png',
+                pic:'online-marketing-icon.png',
                 clr:'#54CDF9'
                 },
                 {
                     title:'Business',
-                pic:'http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/06/online-marketing-icon.png',
+                pic:'online-marketing-icon.png',
                 clr:'#FACC48'
                 },
                 {
                     title:'Technology',
-                pic:'http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/06/design-icon.png',
+                pic:'design-icon.png',
                 clr:'#1479F6'
                 },
                 {
                     title:'Content strategy',
-                pic:'http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/06/design-icon.png',
+                pic:'design-icon.png',
                 clr:'#F18959'
                 }
             ]

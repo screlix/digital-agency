@@ -2,7 +2,7 @@
   <div id="serviceCard" class="pb-5 m-4 pt-2">
     <div id="affected-card">
     <div id="imgRo" :style="{ backgroundColor: clr }">
-      <img :src="pic" alt="?" />
+      <img :src="require('@/assets/icons/'+pic+'')" alt="?" />
     </div>
     <h2>{{ title }}</h2>
     <p class="m-auto w-75 mb-5 mt-3 ppcSer">

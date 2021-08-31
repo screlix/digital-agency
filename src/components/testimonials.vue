@@ -20,7 +20,7 @@
             <div class="row d-flex align-items-center">
               <div class="col-lg-2 col-6">
                 <div class="card-img m-1">
-                  <img :src="url1" alt="" width="70px" />
+                  <img :src="require('@/assets/icons/'+url1)" alt="" width="70px" />
                 </div>
               </div>
               <div class="col-lg-8 col-9">
@@ -43,7 +43,7 @@
             <div class="row d-flex align-items-center">
               <div class="col-lg-2">
                 <div class="card-img m-1">
-                  <img :src="url2" alt="" width="70px" />
+                  <img :src="require('@/assets/icons/'+url2)" alt="" width="70px" />
                 </div>
               </div>
               <div class="col-lg-8 col-9">
@@ -68,8 +68,8 @@ export default {
   data() {
     return {
       testHo:true,
-      url1: "http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/03/client-01-1.jpg",
-      url2: "http://axilthemes.com/themes/keystroke/wp-content/uploads/2020/03/client-02-1.jpg",
+      url1: "client-01-1.jpeg",
+      url2: "client-02-1.jpeg",
       name: "Martha Maldonado",
       title: "Executive Chairman @ Google",
       content:
